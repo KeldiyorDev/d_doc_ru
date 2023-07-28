@@ -45,7 +45,7 @@ export default function QrcodeViewChiquvchi() {
           <div className="content-wrapper">
             <div className="content-inner">
               <div className="content mb-5">
-                <h3 style={{ margin: "10px 0 0 20px", fontWeight: "bold", textTransform: "uppercase" }}>Вид</h3>
+                <h3 style={{ margin: "10px 0 0 20px", fontWeight: "bold", textTransform: "uppercase" }}>Ko'rish</h3>
                 <div className="card-body dd">
                   <ul className="nav nav-tabs nav-tabs-solid nav-tabs-solid-custom bg-primary NavLink" style={{ paddingTop: "2px" }}>
                     <li className="nav-item NavLinkLi">
@@ -59,7 +59,7 @@ export default function QrcodeViewChiquvchi() {
                     <div className={`${full ? "col-lg-12" : "col-lg-6"}`} style={{ paddingLeft: "0" }}>
                       <button className="btn btn-primary m-0 mt-3 w-100"
                         onClick={() => setFull(!full)}>
-                        {full ? "Свернуть экран" : "Полноэкранный"}
+                        {full ? "Ekranni qisqartirish" : "To'liq ekran"}
                       </button>
 
                       <>
@@ -79,7 +79,7 @@ export default function QrcodeViewChiquvchi() {
                         {
                           (obj?.appendixPdfList) && <div className="btn btn-primary w-100 mt-3"
                             onClick={() => setIsShowIlova(!isShowIlova)}>
-                            {!isShowIlova ? "Просмотр приложений" : "Закрыть приложения"}
+                            {!isShowIlova ? "Ilovalarni ko'rish" : "Ilovalarni yopish"}
                           </div>
                         }
 
@@ -116,9 +116,9 @@ export default function QrcodeViewChiquvchi() {
                             <div className="card p-2">
                               <div className="imzo">
                                 <ul>
-                                  <li><strong>Позиция:&nbsp;</strong> {data?.workPlaceShortInfo?.positionName}</li>
-                                  <li><strong>Дата подписания:&nbsp;</strong> {dateFormatGet(data?.signedAt?.slice(0,10))} {data?.signedAt?.slice(11,16)}</li>
-                                  <li><strong>Полное имя фамилия:&nbsp;</strong>
+                                  <li><strong>Lavozimi:&nbsp;</strong> {data?.workPlaceShortInfo?.positionName}</li>
+                                  <li><strong>Imzolangan sana:&nbsp;</strong> {dateFormatGet(data?.signedAt?.slice(0,10))} {data?.signedAt?.slice(11,16)}</li>
+                                  <li><strong>To'liq ismi sharifi:&nbsp;</strong>
                                   {data?.workPlaceShortInfo?.lastName} {data?.workPlaceShortInfo?.firstName} {data?.workPlaceShortInfo?.middleName}</li>
                                 </ul>
                               </div>

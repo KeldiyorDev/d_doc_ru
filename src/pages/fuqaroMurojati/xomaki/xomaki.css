@@ -1,0 +1,190 @@
+.myBtn.btnActive {
+  background-color: #e9f5fe;
+}
+
+.xomakiFixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+  z-index: 9999 !important;
+}
+
+.xomakiCard {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  width: 40%;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  animation: cardXomaki .7s;
+  box-shadow: 1px 3px 5px 1px rgba(194, 193, 193, 0.2);
+}
+
+.xomakiCardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0056B8;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.xomakiCardHead span {
+  font-size: 32px;
+  cursor: pointer;
+
+}
+
+.xomakiCardBody {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.xomakiCardBody span {
+  padding: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.xomakiCardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.xomakiCardFooter button {
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+
+/* info */
+.infoDel {
+  position: fixed;
+  bottom: 40px;
+  left: 35%;
+  right: 35%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: info .7s;
+  box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .6);
+  border-radius: 15px;
+}
+
+.infoDel span {
+  /* background-color: rgba(93, 243, 93, 0.616); */
+  background-color: #066bdf;
+  padding: 20px;
+  border-radius: 10px;
+  /* color: green; */
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.infoDel span p {
+  margin-bottom: 0;
+}
+
+.infoDel span button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.infoDel span strong {
+  margin-right: 15px;
+  font-weight: 500;
+  color: #fff !important;
+  font-size: 16px;
+  color: rgb(44, 44, 44);
+}
+
+.infoDelLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fMurojaati .css-1s2u09g-control,
+.fMurojaati .css-1pahdxg-control {
+  height: 42px !important;
+}
+
+
+@keyframes cardXomaki {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes info {
+  0% {
+    bottom: 0;
+  }
+
+  100% {
+    bottom: 40px
+  }
+}
+
+@media (max-width: 1400px) {
+  .xomakiCard {
+    width: 80%;
+  }
+
+  .infoDel {
+    left: 15%;
+    right: 15%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .xomakiCard {
+    width: 80%;
+  }
+
+  .infoDel {
+    left: 5%;
+    right: 5%;
+  }
+}
+
+@media (max-width: 992px) {
+  .xomakiCard {
+    width: 95%;
+  }
+
+  .infoDel {
+    left: 2%;
+    right: 2%;
+  }
+}

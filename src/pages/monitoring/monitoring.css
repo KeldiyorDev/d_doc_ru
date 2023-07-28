@@ -1,0 +1,84 @@
+.paginationULMon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stickyTable {
+  /* width: 100%; */
+  overflow-x: scroll !important;
+}
+
+.rotateTd {
+  transform: rotate(180deg) !important;
+}
+
+
+.myTableHead {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
+}
+
+.myTableHead th {
+  color: #fff;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+/* .table {
+  border-collapse: collapse;
+  width: 100% !important;
+  overflow-x: scroll;
+} */
+
+/* .overflow-scroll {
+  height: 10px !important;
+  overflow-y: scroll !important;
+} */
+
+
+/* for select in Monitoring  */
+.e-multi-select-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.e-chips-close.e-close-hooker {
+  top: 43px !important;
+}
+
+.e-searcher {
+  margin: 0 !important;
+}
+
+.e-delim-view {
+  padding: 0 5px !important;
+}
+
+.uploadData {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loaderWrapper span {
+  position: absolute;
+  top: 80px;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* .theadSticky {
+  position: sticky !important;
+  top: 0 !important;
+  overflow-x: scroll;
+  z-index: 9 !important;
+} */

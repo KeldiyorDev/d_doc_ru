@@ -1,0 +1,385 @@
+.imzo ul {
+    list-style: none;
+}
+
+.imzo ul li {
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 18px;
+}
+
+.checkbox {
+    width: 57px;
+    height: 57px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkbox strong {
+    color: rgb(109, 108, 108);
+    font-size: 24px;
+}
+
+.iconCheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: lightgray;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all ease-in .2s;
+    font-size: 32px;
+}
+
+.checkbox:hover .iconCheck {
+    display: flex;
+}
+
+
+/* e-imzo */
+.testform {
+    margin: 10px;
+    width: 100%;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center; */
+    color: #000;
+}
+
+.key {
+    list-style: none;
+    position: absolute;
+    top: 48.7px;
+    left: -2px;
+    right: -1px;
+    background-color: #fff;
+    z-index: 9999;
+    border: 1px solid lightgray;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.key li {
+    /* margin-bottom: 5px; */
+    padding: 3px;
+    cursor: pointer;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    transition: all ease-in 0.15s;
+    border-bottom: 1px solid lightgray;
+}
+
+.key li:hover {
+    background-color: rgba(220, 220, 220, 0.522);
+}
+
+.key span {
+    padding: 2px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.key span img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.key li strong {
+    margin-right: 10px;
+}
+
+.testform textarea {
+    resize: vertical;
+    width: 100%;
+}
+
+.selectElement {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid silver;
+}
+
+.selectValue {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.testformDiv {
+    margin-right: 20px;
+}
+
+.validTime {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.tashkilotName {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+}
+
+.iconDownUp {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    font-size: 15px;
+}
+
+
+/* fishka */
+.reacttopdf {
+    /* padding: 50px 0; */
+    padding-top: 0;
+    width: 100%;
+    /* height: 1500px; */
+    /* margin-top: 30px; */
+    /* display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px; */
+}
+
+.pdfHeader {
+    display: flex;
+    align-items: center;
+}
+
+.pdfHeader h1 {
+    flex: 1;
+    text-align: center;
+    font-size: 28px;
+}
+
+.pdfHeader h1 span {
+    color: rgb(75, 204, 75);
+}
+
+.pdfHeader img {
+    width: 100%;
+    height: 400px;
+}
+
+.hr {
+    height: 4px;
+    background-color: #000;
+}
+
+.pdfDate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pdfNazorat {
+    display: flex;
+}
+
+.h4NazoratRight {
+    margin-right: 20px;
+    color: steelblue;
+}
+
+.hr2 {
+    margin: 0;
+    width: 100%;
+}
+
+.pdfContent {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.topContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topContent h1 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.topContent h2 {
+    margin: 0;
+    height: 100%;
+    padding-top: 5px;
+}
+
+.pdfFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pdfFooter h3 {
+    flex: 1;
+}
+
+.pdfFooter img {
+    width: 150px;
+    height: 150px;
+}
+
+
+/* fishka */
+.fishkaLeftIJroMain {
+    background-color: rgb(73, 72, 72);
+    width: 75%;
+    margin: auto;
+    padding: 80px 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.fishkaLeftIJro {
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    height: 100%;
+}
+
+.mainImgFishka {
+    width: 100%;
+}
+.fishkaLeftIJroMain button {
+    margin-top: 20px !important;
+}
+.table1 {
+    height: 100px;
+}
+.fishkaLeftIJroMain .p1 {
+    margin-left: 20px;
+}
+.fishkaLeftIJroMain .p2 {
+    margin-left: 20px;
+}
+.fishkaLeftIJroMain .p3 {
+    margin-left: 20px;
+}
+
+@media (max-width:992px) {
+    .dd {
+        padding: 0;
+        margin: 0;
+    }
+    .reacttopdf {
+        width: 100%;
+    }
+
+    .pdfHeader {
+        width: 100%;
+    }
+
+    .pdfHeader img {
+        width: 100% !important;
+    }
+}
+@media (max-width:768px) {
+    .fishkaLeftIJroMain {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+    .fishkaLeftIJro {
+        padding: 5px;
+    }
+    .fishkaLeftIJroMain button {
+        width: 90%;
+        margin: auto;
+        font-size: 10px;
+    }
+    .table1 {
+        height: 70px;
+    }
+    .fishkaLeftIJroMain .p1 {
+        margin-left: 0 !important;
+        padding: 10px;
+        padding-top: 10px;
+    }
+    .fishkaLeftIJroMain .p2 {
+        margin-left: 0 !important;
+        padding: 0 10px;
+    }
+    .fishkaLeftIJroMain .p3 {
+        margin-left: 0 !important;
+    }
+    .fishkaLeftIJroMain .p2 span {
+        font-size: 10px;
+    }
+    .fishkaLeftIJroMain .p3 strong {
+        font-size: 10px;
+    }
+    .fishkaLeftIJroMain .p4 {
+        padding: 10px;
+        padding-top: 10px;
+    }
+}
+@media (max-width:567px) {
+    .fishkaLeftIJroMain {
+        width: 100%;
+        padding: 10px 0;
+        font-size: 10px;
+    }
+    .fishkaLeftIJroMain .p2 span {
+        font-size: 8px;
+    }
+    .fishkaLeftIJroMain .p3 strong,  .fishkaLeftIJroMain .p3 span{
+        font-size: 8px;
+    }
+}
+@media (max-width:376px) {
+    .cardBodyQrcode {
+        padding: 10px;
+    }
+    .fishkaLeftIJroMain .table2 tr {
+        width: 95% !important;
+    }
+    .fishkaLeftIJroMain .p2 {
+        margin-left: 0 !important;
+        /* padding: 0 10px; */
+    }
+    .hujjatH3 {
+        font-size: 12px !important;
+    }
+    .hujjatCardBody {
+        padding: 0;
+        margin-top: 10px;
+    }
+    .hujjatCardBox1 {
+        padding: 0;
+    }
+    .hujjatCardBox1 .card  {
+        padding: 0 !important;
+    }
+    .hujjatCardBox1 .card ul li {
+        padding-left: 10px !important;
+        font-size: 14px;
+    }
+    .bodySpan {
+        font-size: 12px !important;
+        margin-top: 10px !important;
+    }
+    .korresHujjat {
+        font-size: 12px !important;
+    }
+}

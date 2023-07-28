@@ -1,0 +1,58 @@
+.paginate {
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10px;
+}
+.paginate li {
+    width: 40px;
+    height: 40px;
+    /* background-color: silver; */
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000 !important;
+}
+.paginate li a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginate li.active {
+    background-color: #0056B8;
+    color: #fff !important;
+}
+.adminWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3));
+    z-index: 99999 !important;
+}
+.alert {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 99999 !important;
+    margin: auto;
+}
+.alertNotice {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 9999 !important;
+    margin: auto;
+}

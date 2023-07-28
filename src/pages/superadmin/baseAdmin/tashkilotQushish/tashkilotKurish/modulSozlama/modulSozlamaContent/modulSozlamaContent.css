@@ -1,0 +1,42 @@
+.paginate {
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10px;
+}
+.paginate li {
+    width: 40px;
+    height: 40px;
+    /* background-color: silver; */
+    margin: 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000 !important;
+}
+.paginate li a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginate li.active {
+    background-color: blue;
+    color: #fff !important;
+}
+.ad {
+    position: fixed;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99999 !important;
+    color: #fff;
+}

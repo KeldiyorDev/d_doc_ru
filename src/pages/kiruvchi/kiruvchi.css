@@ -1,0 +1,41 @@
+.paginationUL,
+.paginationUL2 {
+  list-style: none;
+  display: flex;
+}
+
+.paginationUL li a,
+.paginationUL2 li a {
+  background-color: #eee;
+  margin: 2px;
+  color: #000;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.paginationUL li a:hover,
+.paginationUL2 li a:hover {
+  color: #000 !important;
+}
+
+.paginationUL li.active a,
+.paginationUL2 li.active a {
+  background-color: #0056B8;
+  border-color: transparent;
+  color: white;
+}
+
+.paginationUL li.active a:hover,
+.paginationUL2 li.active a:hover {
+  color: #fff !important;
+}
+
+/* barcha date picker lar uchun */
+.react-datepicker-popper {
+  z-index: 9999 !important;
+}

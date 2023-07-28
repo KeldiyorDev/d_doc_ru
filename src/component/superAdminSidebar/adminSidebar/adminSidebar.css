@@ -1,0 +1,33 @@
+.adminWindow1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.91);
+    z-index: 999999 !important;
+    margin-left: 0 !important;
+}
+
+.adminWindow1Wrapper {
+    width: 40%;
+    margin: auto;
+}
+
+.adminWindow1Wrapper {
+    position: relative;
+}
+
+.supAdminImg {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0;
+    width: 90%;
+    object-fit: contain;
+}
+
+.sidebarSection li,
+.sidebarSection li a {
+    font-size: 18px !important;
+}

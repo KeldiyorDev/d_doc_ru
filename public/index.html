@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <!-- fontawesomes google material -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/style/style.css" type="text/css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Global stylesheets -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+
+  <link href="/style/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css">
+  <link href="/style/assets/css/all.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="shortcut icon" href="https://d-doc.uz/media/favicons/favicon.png" type="image/x-icon"> -->
+
+  <!-- Core JS files -->
+  <script type="text/javascript" src="/style/js/main/jquery.min.js"></script>
+  <script type="text/javascript" src="/style/js/main/bootstrap.bundle.min.js"></script>
+
+  <!-- @syncfusion/ej2-react-dropdowns shu kutuxona uchun -->
+  <link rel="stylesheet" href="/style/material/material1.css">
+  <link rel="stylesheet" href="/style/material/material2.css">
+  <link rel="stylesheet" href="/style/material/material3.css">
+  <link rel="stylesheet" href="/style/material/material4.css">
+
+  <!-- /theme JS files -->
+  <script type="text/javascript" src="/style/assets/js/app.js"></script>
+  <!-- <script type="text/javascript" src="/style/js/plugins/forms/inputs/formatter.min.js"></script>
+  <script type="text/javascript" src="/style/js/plugins/forms/inputs/inputmask.js"></script>
+  <script type="text/javascript" src="/style/js/plugins/forms/inputs/maxlength.min.js"></script> -->
+
+  <script src="/style/js/plugins/forms/inputs/bootstrap_multiselect.js"></script>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    .cke_wysiwyg_frame {
+      border: 1px solid lightgray !important;
+      border-radius: 7px;
+    }
+
+    .cke_editable {
+      margin: "60px" !important;
+    }
+
+    #cke_editor1 {
+      margin: 0 auto !important;
+    }
+
+    #cke_editor1 p {
+      margin: none !important;
+      text-align: end;
+    }
+
+    /* all ul elements */
+    ul {
+      margin-bottom: 0;
+    }
+
+    .fc-media-screen {
+      padding: 5px 5px 20px 5px !important;
+    }
+
+    .multiselect {
+      padding: 1rem;
+    }
+
+    .NavLink {
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+    }
+
+    /* selectdagi vertical chiziqni yo'qotish */
+    .css-1okebmr-indicatorSeparator {
+      display: none;
+    }
+
+    /* select ustiga bosganda balandligini bir xil qilish */
+    .css-1pahdxg-control {
+      height: 56px;
+    }
+
+    /* select balandligi */
+    .css-1s2u09g-control {
+      width: 100%;
+      height: 56px !important;
+    }
+
+    /* select balandligi */
+    .css-1insrsq-control {
+      width: 100%;
+      height: 56px !important;
+    }
+
+    #js-licensing {
+      display: none;
+    }
+
+    /* selectni bosganda element tagiga qolmasligi uchun */
+    #react-select-21-listbox {
+      position: inherit;
+      z-index: 999 !important;
+    }
+
+    .css-2613qy-menu {
+      position: inherit;
+      z-index: 999 !important;
+    }
+
+    .adminWindow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .3));
+      z-index: 999;
+    }
+
+    .alert {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      width: 25%;
+      z-index: 99999 !important;
+      margin: auto;
+    }
+
+    .alertNotice {
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      z-index: 99999999 !important;
+      margin: auto;
+    }
+
+    /* scroll ni uzunligini o'zgartirish */
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .XodimBajaruvchi .css-26l3qy-menu,
+    .col1QaytaIjro .css-26l3qy-menu {
+      width: 350px !important;
+      z-index: 999 !important;
+    }
+
+    .css-26l3qy-menu {
+      z-index: 999999 !important;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      font-weight: bold;
+    }
+
+    /* input uchun */
+    .adminSozlamaInput {
+      padding: 5px;
+      border: none !important;
+      background-color: transparent;
+      width: 70px;
+    }
+
+    .react-numeric-input {
+      border: none !important;
+    }
+
+    .react-numeric-input b {
+      display: none !important;
+    }
+
+    .adminSozlamaInput:hover {
+      border-bottom: 1px solid crimson !important;
+    }
+
+    .adminSozlamaInput:focus {
+      outline: none !important;
+      border: 1px solid crimson !important;
+      border-radius: 2px !important;
+    }
+
+    .customNoti {
+      display: flex;
+      align-items: center;
+      position: fixed;
+      width: 300px;
+      bottom: 2.4rem;
+      right: 2rem;
+      border-radius: .25rem;
+      box-shadow: 0 .3rem .6rem rgba(0, 0, 0, .3);
+      padding: .2rem 1.4rem;
+      z-index: 999 !important;
+      background-color: #fff;
+      cursor: pointer;
+      opacity: 0;
+      transform: scale(1.1);
+    }
+
+    .customNoti.show {
+      opacity: 1;
+      animation-name: notify;
+      animation-duration: .3s;
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+      transform: translate(0, 0);
+    }
+
+    .customNoti.hide {
+      animation-name: notifyHide;
+      animation-duration: .3s;
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+      opacity: 0;
+      transform: translate(100%, 0);
+    }
+
+    .customNoti-head {
+      display: grid;
+      place-items: center;
+    }
+
+    .customNoti-body {
+      display: flex;
+      align-items: stretch;
+      flex-direction: column;
+      justify-content: space-around;
+      margin-left: 2rem;
+    }
+
+    .customNoti-body .items a {
+      color: #333 !important;
+      font-weight: 700 !important;
+      font-size: .9rem !important;
+    }
+
+    .customNoti-body .items a span.success {
+      color: rgb(50, 168, 50);
+    }
+
+    .customNoti-body .items a span.warning {
+      color: rgb(219, 128, 24);
+    }
+
+    .customNoti-body .items a span.error {
+      color: #b40428;
+    }
+
+    .customNoti-body .items a span.num {
+      margin-right: 15px;
+    }
+
+    /* selection text */
+    ::selection {
+      color: #ffd33e;
+      background: #0c0c0c;
+      text-transform: capitalize;
+    }
+
+    #telegram {
+      position: fixed;
+      right: -67px;
+      bottom: 15px;
+      transition: 0.3s !important;
+      padding: 3px 5px;
+      color: #fff;
+      width: 90px;
+      text-decoration: none;
+      font-size: 14px;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      background-color: #0056B8;
+    }
+
+    #telegram:hover,
+    #instagram:hover {
+      right: 0;
+    }
+
+    #instagram {
+      position: fixed;
+      right: -67px;
+      bottom: 44px;
+      transition: 0.3s;
+      padding: 3px 5px;
+      color: #fff;
+      width: 90px;
+      text-decoration: none;
+      font-size: 14px;
+      z-index: 4;
+      display: flex;
+      align-items: center;
+      background-color: #4f89ca;
+    }
+
+    .page-content {
+      height: 100vh !important;
+    }
+  </style>
+  <title>d-doc.uz</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+  <script>
+    // e.ctrlKey || 
+    document.addEventListener("keydown", (e) => {
+      if (e.keyCode == 123) {
+        e.stopPropagation();
+        e.preventDefault();
+      }
+    })
+  </script>
+</body>
+
+<!-- e-imzo -> o'chirilmasin (taqiqlanadi)-->
+<!-- <script src="http://dls.yt.uz/e-imzo.js"></script>
+<script src="http://dls.yt.uz/e-imzo-client.js"></script>
+<script src="/style/js/eimzo.js"></script> -->
+
+</html>

@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.input_checkbox_container {
+    position: relative;
+}
+
+.input_checkbox_items{
+    position: absolute;
+    top: 45px;
+    background-color: #fff;
+    z-index: 999;
+    cursor: default;
+}
+
+.main_input_data {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    color: rgb(169, 169, 169);
+}
+
+.input_checkbox_wrapper_flex {
+    position: relative;
+    width: 100%;
+}
+
+.downIcon {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    color: silver;
+}
+
+.main_input_data:focus {
+    outline-color: #2272f2;
+}
+
+.input_checkbox_items {
+    width: 100%;
+    border: 1px solid lightgray;
+    list-style: none;
+    max-height: 300px;
+    overflow-y: scroll;
+    -webkit-box-shadow: 0px 2px 9px -4px rgba(0, 0, 0, 0.87);
+    box-shadow: 0px 2px 9px -4px rgba(0, 0, 0, 0.87);
+}
+
+.input_checkbox_items::-webkit-scrollbar {
+    width: 3px;
+}
+
+.input_checkbox_items::-webkit-scrollbar-thumb {
+    background-color: silver;
+}
+
+.all_checked_data {
+    width: 100%;
+    padding-right: 0;
+    padding: 0px 5px;
+    padding: 5px;
+    display: flex;
+    /*align-items: center;*/
+    gap: 5px;
+}
+
+.input_checkbox_item {
+    width: 100%;
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    transition: all ease-in .2s;
+}
+
+.input_checkbox_item:hover {
+    background-color: lightgray;
+}
+.closeIconMultiSelect {
+    font-size: 18px;
+    top: 10px;
+    right: 8px;
+    /*cursor: pointer;*/
+}
+.checked_input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checked_input_checkbox,
+.checked_input_checkbox_all {
+    width: 18px !important;
+    height: 18px  !important;
+}
+.checked_input_checkbox {
+    flex: 0.5;
+}
+.allChooseData {
+    flex: 14;
+}
+.updateIcon {
+    cursor: pointer;
+}
+
+.openOrgModal_container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20px;
+    animation: opacity_modal .6s;
+    z-index: 9999 !important;
+}
+
+.openOrgModal_wrapper {
+    width: 700px;
+    border-radius: 5px;
+    background-color: #fff;
+    /* height: 100px; */
+}
+
+.openOrgModal_top {
+    background-color: #2272f2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+    color: #fff;
+}
+
+.closeIcon {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formUpdateData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.formUpdateDataPosition {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.formUpdateDataPositionB {
+    margin-bottom: 0;
+}
+
+.ibput_data_update {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.ibput_data_update:focus {
+    outline-color: #2272f2;
+}
+
+.btn_save {
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #2272f2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+@keyframes opacity_modal {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/*qvc----------------------------------------------------------------------*/
+.show{
+    /* display: block !important; */
+}
+
+#myDropdown {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    background: white;
+    border: 1px solid lightgrey;
+}
+.showMultiOptionsVisible {
+    display: block;
+}
+.showMultiOptionsHidden {
+    display: none;
+}

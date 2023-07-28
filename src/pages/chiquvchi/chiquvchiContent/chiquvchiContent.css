@@ -1,0 +1,45 @@
+.InputBox{
+  height: 56px;
+}
+
+.e-multiselect{
+  border: 1px solid hsl(0, 0%, 80%) !important;
+  height: 40px;
+  border-radius: 4px !important;
+}
+
+.e-multiselect input.e-dropdownbase::placeholder {
+  text-transform: none;
+  width: 100%;
+  color: hsl(0, 0%, 20%);
+}
+
+.unit1 .cke_contents {
+  min-height: 900px !important;
+}
+.isBook .cke_contents {
+  min-height: 900px !important;
+}
+.isAlbom.cke_contents {
+  min-height: 700px !important;
+}
+
+.unit1 .cke_wysiwyg_div {
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  height: 900px;
+  border-radius: 7px;
+  padding: 50px 80px !important;
+}
+.isBook .cke_wysiwyg_div {
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  height: 900px;
+  border-radius: 7px;
+  padding: 50px 80px !important;
+}
+
+.isAlbom .cke_wysiwyg_div {
+  border: 1px solid rgba(0, 0, 0, .125) !important;
+  height: 600px;
+  border-radius: 7px;
+  padding: 50px 80px !important;
+}

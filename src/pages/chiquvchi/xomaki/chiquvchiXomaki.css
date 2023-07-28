@@ -1,0 +1,13 @@
+    @media screen and (max-width:768px) {
+        .file_kor_short {
+            display: none !important;
+        }
+
+        .file_kor_short_not{
+            font-size: 10px;
+        }
+
+        td{
+            padding: 8px 14px !important;
+        }
+}

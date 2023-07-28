@@ -1,0 +1,119 @@
+/* notifications */
+.notice {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 340px;
+    background-color: white;
+    border-radius: 5px;
+    animation: animeNotice 1s;
+    -webkit-box-shadow: 2px 5px 17px 8px rgba(0, 0, 0, 0.42);
+    box-shadow: 2px 5px 17px 8px rgba(0, 0, 0, 0.42);
+    z-index: 999 !important;
+  }
+.noticeWrapper {
+    width: 100%;
+    height: 95px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    padding-top: 7px;
+    gap: 10px;
+    position: relative;
+}
+
+.noticeWrapper_left {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.noticeWrapper_left h3 {
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.noticeWrapper_right {
+    flex: 3;
+}
+
+.noticeWrapper img {
+    width: 100px;
+    height: 38px;
+    background-color: transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.noticeWrapper ul {
+    list-style: none;
+    font-size: 16px;
+    height: 100%;
+    margin-bottom: 0;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.noticeWrapper ul li {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.noticeWrapper ul li:hover {
+    cursor: pointer;
+}
+
+.noticeWrapper ul li a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.noticeWrapper ul li a:hover {
+    color: rgb(77, 62, 62);
+}
+
+.badge123 {
+    /* background-color: crimson;
+    font-size: 18px;
+    width: 20px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-radius: 5px; */
+    text-decoration: underline;
+}
+
+
+.closeNotice {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@keyframes animeNotice {
+    0% {
+      bottom: 0;
+    }
+  
+    100% {
+      bottom: 10px;
+    }
+  }
+  

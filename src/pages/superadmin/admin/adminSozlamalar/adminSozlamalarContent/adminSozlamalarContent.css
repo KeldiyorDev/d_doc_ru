@@ -1,0 +1,34 @@
+.adminWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3));
+    z-index: 99999 !important;
+}
+.alert {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 9999 !important;
+    margin: auto;
+}
+.adminSozlamaInput {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    width: 70px;
+}
+.adminSozlamaInput:hover {
+    border-bottom: 1px solid crimson;
+}
+.adminSozlamaInput:focus {
+    /* border: 1px solid crimson; */
+    /* border: none; */
+    outline: none;
+    border: 1px solid crimson;
+    border-radius: 2px;
+}

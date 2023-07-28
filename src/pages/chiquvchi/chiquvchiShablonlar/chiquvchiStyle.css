@@ -1,0 +1,49 @@
+.nav-item {
+    position: relative;
+}
+
+
+.badge1 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 2px 5px;
+    /* width: 18px;
+    height: 18px; */
+    border-radius: 20%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 11px;
+    z-index: 1;
+}
+.extraBadge1 {
+    top: -15px !important;
+}
+
+.liMenus {
+    display: none !important;
+}
+
+.nom::placeholder{
+    text-transform: none;
+}
+
+.cke_contents.cke_reset{
+    padding: 30px 100px;
+}
+
+.shablon .cke_wysiwyg_div{
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    height: 900px !important;
+    padding: 50px 80px !important;
+}
+
+.shablon .cke_wysiwyg_div p{
+    text-align: end;
+    margin: 0;
+}

@@ -1,0 +1,47 @@
+.adminWindow1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.91);
+    z-index: 999999 !important;
+    margin-left: 0 !important;
+}
+/* .adminWindow1Wrapper {
+    width: 40%;
+    margin: auto;
+} */
+.alert {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 9999 !important;
+    margin: auto;
+}
+.alertNotice {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 9999 !important;
+    margin: auto !important;
+}
+
+.btn-file {
+    width: 70px;
+}
+
+@media (max-width: 1200px) {
+    .adminWindow1Wrapper {
+        width: 90%; 
+    }
+}
+@media (max-width: 992px) {
+    .adminWindow1Wrapper {
+        width: 95%; 
+    }
+}

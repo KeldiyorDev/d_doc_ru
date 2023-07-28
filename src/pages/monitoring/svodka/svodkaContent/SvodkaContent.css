@@ -1,0 +1,48 @@
+.rotate {
+    transform: rotate(-90deg);
+    /* -moz-transform: rotate(-90.0deg);
+    /* FF3.5+ */
+    /* -o-transform: rotate(-90.0deg); */
+    /* Opera 10.5 */
+    /* -webkit-transform: rotate(-90.0deg); */
+    /* Saf3.1+, */
+    /* Chrome filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083); */
+    /* IE6,IE7 */
+    /* -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; */
+    /* IE8 */
+}
+
+.tr {
+    border: 1px solid black !important;
+}
+
+.text-deg-270 {
+    max-height: 200px;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+.selectCheckBox{
+    /* border: 1px solid lightgray; */
+    border-radius: 5px;
+}
+.selectCheckBox>div{
+    height: 54px;
+}
+
+.e-multi-select-wrapper::before,.e-multi-select-wrapper::after{
+    display:none !important;
+}
+
+.e-searcher{
+    font-size:16px;
+}
+
+.e-input-group{
+    margin-bottom: 0 !important;
+    border-bottom: none !important;
+}
+.e-searcher{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 18px !important;
+}

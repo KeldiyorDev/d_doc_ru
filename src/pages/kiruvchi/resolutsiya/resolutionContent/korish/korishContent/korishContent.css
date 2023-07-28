@@ -1,0 +1,493 @@
+html,
+body {
+  height: 100%;
+}
+
+.isTrue {
+  background-color: rgba(130, 153, 174, 0.632);
+  color: #000;
+  font-weight: bold;
+}
+
+.isFalse {
+  background-color: #fff;
+  color: #000;
+}
+
+.checkbox {
+  width: 56px;
+  height: 56px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.checkbox strong {
+  color: rgb(109, 108, 108);
+  font-size: 20px;
+}
+
+
+.iconCheck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: lightgray;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 5px; */
+  transition: all ease-in .2s;
+  font-size: 20px;
+}
+
+.checkbox:hover .iconCheck {
+  display: flex;
+}
+
+
+
+.panel-heading {
+  padding: 5px;
+  transition: all ease-in .1s;
+  /* cursor: pointer; */
+  /* background-color: #0056B8; */
+  color: #000 !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.collapseBottom {
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.collapseBottom div {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 10px 0;
+}
+
+.panel-body {
+  padding: 0 2px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  color: #000 !important;
+}
+
+.panel-body i {
+  padding: 0 10px;
+}
+
+.anime {
+  animation: anim .2s;
+}
+
+.colLink {
+  color: #000 !important;
+}
+
+.checkBoxPanel,
+.checkBoxPanelInside {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.pdfIcon {
+  color: rgb(199, 81, 104);
+}
+
+.wordIcon {
+  color: rgb(62, 62, 235);
+}
+
+.excelIcon {
+  color: rgb(47, 153, 47);
+}
+
+.pptIcon {
+  color: rgb(255, 166, 0);
+}
+
+.rarIcon {
+  color: rgb(95, 89, 78);
+}
+
+
+/* row1 tashqi bajaruvchilar*/
+.row1Wrapper {
+  position: relative;
+}
+
+.row1 {
+  width: 100%;
+  height: 50px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.row1Icon {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  font-size: 18px;
+}
+
+.absoluteRow1 {
+  position: absolute;
+  top: 49px;
+  left: 0px;
+  right: 0px;
+  border: 1px solid lightgray;
+  z-index: 999;
+  background-color: #fff;
+  list-style: none;
+  max-height: 350px;
+  overflow-y: scroll;
+}
+
+.absoluteRow1 li {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px;
+  padding-bottom: 5px;
+  transition: all ease-in 0.12s;
+  cursor: pointer;
+}
+
+.absoluteRow1 li:hover {
+  background-color: rgba(211, 211, 211, 0.446);
+}
+
+.row1Checkbox {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.row1CheckboxCopy {
+  width: 22px;
+  height: 22px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.rowsResultText {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  font-size: 16px;
+}
+
+.row1Li {
+  padding-left: 20px;
+}
+
+.orgName {
+  font-size: 15px;
+  text-transform: capitalize !important;
+}
+
+
+/* button animatsiya */
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 {
+  /* min-width: 300px; */
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129, 230, 217, 1) 0%, rgba(79, 209, 197, 1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79, 209, 197, .64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button1::before {
+  content: '';
+  border-radius: 1000px;
+  min-width: 100%;
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0, 255, 203, .64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button1:hover,
+.button1:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+.button1:hover::before,
+.button1:focus::before {
+  opacity: 1;
+}
+
+.button1::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite !important;
+}
+
+.button1:hover::after,
+.button1:focus::after {
+  animation: none;
+  display: none;
+}
+
+
+/* tashqi bajaruvhcilar */
+.tashqiBaj {
+  list-style: none;
+}
+
+.tashqiBaj li {
+  padding: 10px;
+  /* background-color: rgb(233, 228, 228); */
+  margin-bottom: 5px;
+  font-size: 18px;
+  transition: all ease-in .2s !important;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.tashqiBaj li:hover {
+  background-color: #0056B8;
+  color: #fff;
+}
+
+.bodyModal {
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.tashqiBajUlInline {
+  padding: 20px;
+  border: 1px solid lightgray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.tashqiBajUlInline input {
+  padding: 15px;
+}
+
+.inlineContent,
+.inlineContent3 {
+  display: flex;
+  align-items: center;
+  /* padding: 10px; */
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.inlineContent,
+.inlineContent3 {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.inlineContent2 {
+  /* margin-left: 20px; */
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-left: 30px;
+  border-radius: 5px;
+  -webkit-box-shadow: 1px 7px 13px 1px rgba(0, 0, 0, 0.55);
+  box-shadow: 1px 7px 13px 1px rgba(0, 0, 0, 0.55);
+}
+
+.inlineContent input,
+.inlineContent3 input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.inlineContent:hover,
+.inlineContent3:hover {
+  background-color: rgb(242, 242, 242);
+}
+
+.kurishModalBajaruvchi {
+  margin: 0 300px;
+  /* width: 1600px; */
+  width: 100%;
+  margin: auto;
+}
+
+.kurishModalBajaruvchi .modal-content {
+  /* width: 1600px; */
+  width: 90%;
+  margin: auto;
+}
+
+.allChecked,
+.allChecked1 {
+  background-color: #0056B8;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer !important;
+}
+
+.tashqiBajUlInline input[type="text"] {
+  margin-top: 7px;
+}
+
+.badge2 {
+  position: absolute;
+  top: -10px;
+  right: -22px;
+  background-color: crimson;
+  width: 20px;
+  height: 20px;
+  border-radius: 15%;
+}
+
+.inputTashqiTash {
+  width: 400px;
+  border-radius: 5px;
+  padding: 5px !important;
+  border: 1px solid lightgray;
+}
+
+.inputTashqiTash:focus {
+  outline: none;
+}
+
+.tashqiBajLi1 span {
+  position: absolute;
+  top: -10px;
+  right: -16px;
+  border-radius: 10%;
+  background-color: crimson;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.borderPdf {
+  width: 100%;
+  height: 1000px;
+  overflow-y: scroll;
+}
+
+.ccc ::-webkit-scrollbar {
+  width: 15px;
+}
+
+.ccc ::-webkit-scrollbar-thumb {
+  background-color: rgb(142, 142, 142);
+}
+
+
+.checkboxSelect {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1500px) {
+  .col1 {
+    width: 100% !important;
+  }
+
+  .col2 {
+    width: 100% !important;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .bodyModal {
+    display: block !important;
+    padding: 10px;
+  }
+
+  .inputTashqiTash {
+    width: 100%;
+  }
+
+  .tashqiBajUlInline {
+    padding: 10px;
+  }
+
+  .kurishModalBajaruvchi .modal-content {
+    width: 98%;
+  }
+}

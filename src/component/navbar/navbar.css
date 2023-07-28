@@ -1,0 +1,85 @@
+.navbarComponents {
+  display: flex !important;
+  align-items: center !important;
+}
+.exampleSelectWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  z-index: 1 !important;
+}
+
+.exampleSelect {
+  width: 100px;
+  height: 30px;
+  border: 1px solid silver;
+  position: relative;
+}
+
+.ul1 {
+  position: absolute;
+  top: 28px;
+  left: -1px;
+  right: -2px;
+  border: 1px solid silver;
+  background-color: #fff;
+  list-style: none;
+  padding: 3px;
+}
+
+.chiqishNavbar {
+  display: block;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: #f1f1f1;
+}
+
+.exitIcon {
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.exitIcon:hover {
+  color: crimson !important;
+}
+.navbar {
+  gap: 20px;
+  padding: 5px 10px;
+}
+.navbarBrand {
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .chiqishNavbar {
+    display: none;
+  }
+
+  span {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .gerb,
+  .d-xs-none {
+    display: none;
+  }
+
+}

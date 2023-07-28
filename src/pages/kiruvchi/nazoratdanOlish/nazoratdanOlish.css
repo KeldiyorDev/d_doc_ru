@@ -1,0 +1,21 @@
+.myBtn.btnActive {
+  background-color: #e9f5fe;
+}
+
+.current {
+  color: green;
+}
+
+.ijrochi1 span {
+  font-size: 12px;
+  text-transform: capitalize !important;
+}
+
+.status {
+  font-size: 12px !important;
+}
+
+.qisqacha1,
+.korres1 {
+  text-transform: capitalize !important;
+}

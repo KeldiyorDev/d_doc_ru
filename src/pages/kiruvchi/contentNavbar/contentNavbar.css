@@ -1,0 +1,119 @@
+.nav-item {
+    position: relative;
+}
+.badge1 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 2px 5px;
+    /* width: 18px;
+    height: 18px; */
+    border-radius: 20%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 11px;
+    z-index: 1;
+}
+.extraBadge1 {
+    top: -15px !important;
+}
+
+.liMenus {
+    display: none !important;
+}
+
+
+/* media query kiruvchi sidebar */
+/* .bajarilganDropDown, .nazoratdanOlishDropDown, .redetilganDropDown, .bajarilmaganDropDown, .malumotUchunDropDown, .umumlashtiruvchiDropDown, .nazoratdaDropDown, .bajarishUchunDropDown, .rezalutsiyaDropDown, .yangiDropDown, .yangiQushishDropDown {
+    display: none;
+}
+
+@media (max-width: 2035px) {
+    .nazoratdanOlish {
+        display: none;
+    }
+    .nazoratdanOlishDropDown {
+        display: block;
+    }
+    .liMenus {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 1836.50px) {
+    .bajarilgan {
+        display: none;
+    }
+    .bajarilganDropDown {
+        display: block;
+    }
+}
+
+@media (max-width: 1690.50px) {
+    .redetilgan {
+        display: none;
+    }
+    .redetilganDropDown {
+        display: block;
+    }
+}
+@media (max-width: 1536.50px) {
+    .bajarilmagan {
+        display: none;
+    }
+    .bajarilmaganDropDown {
+        display: block;
+    }
+}
+@media (max-width: 1366.50px) {
+    .malumotUchun {
+        display: none;
+    }
+    .malumotUchunDropDown {
+        display: block;
+    }
+}
+@media (max-width: 1183.50px) {
+    .umumlashtiruvchi {
+        display: none;
+    }
+    .umumlashtiruvchiDropDown {
+        display: block;
+    }
+}
+@media (max-width: 922.50px) {
+    .nazoratda {
+        display: none;
+    }
+    .nazoratdaDropDown {
+        display: block;
+    }
+}
+@media (max-width: 776.50px) {
+    .bajarishUchun {
+        display: none;
+    }
+    .bajarishUchunDropDown {
+        display: block;
+    }
+}
+@media (max-width: 588.50px) {
+    .rezalutsiya {
+        display: none;
+    }
+    .rezalutsiyaDropDown {
+        display: block;
+    }
+}
+@media (max-width: 435.50px) {
+    .yangi {
+        display: none;
+    }
+    .yangiDropDown {
+        display: block;
+    }
+} */

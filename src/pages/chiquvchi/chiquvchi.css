@@ -1,0 +1,50 @@
+.e-multiselect{
+    border: 1px solid hsl(0, 0%, 80%) !important;
+    height: 40px;
+    border-radius: 4px !important;
+}
+
+.e-multiselect input.e-dropdownbase::placeholder {
+    text-transform: none;
+    width: 100%;
+    color: hsl(0, 0%, 20%);
+}
+.InputBox::placeholder{
+    text-transform: none;
+}
+
+.InputBox{
+    width: 100%;
+}
+.cke_contents {
+    min-height: 900px !important;
+}
+.cke_wysiwyg_div {
+    padding: 10px !important;
+}
+.shadowBox1 {
+    -webkit-box-shadow: 1px 1px 10px -6px #000000;
+    box-shadow: 1px 1px 10px -6px #000000;
+}
+#cke_editor3 {
+    display: none;
+}
+
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::before,.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after{
+    width: 0;
+}
+
+.input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after{
+    width: 0;
+}
+
+.e-popup .e-checkbox-wrapper .e-frame.e-check,
+.e-popup .e-checkbox-wrapper:hover .e-frame.e-check {
+    background-color: #0056B8;
+    color: white;
+}
+
+.cke_contents.cke_reset{
+    padding: 30px 100px;
+}
+

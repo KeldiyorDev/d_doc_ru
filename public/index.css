@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.multiselect {
+  padding: 1rem;
+}
+
+.NavLink {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+/* selectdagi vertical chiziqni yo'qotish */
+.css-1okebmr-indicatorSeparator {
+  display: none;
+}
+
+/* select ustiga bosganda balandligini bir xil qilish */
+.css-1pahdxg-control {
+  height: 56px;
+}
+
+/* select balandligi */
+.css-1s2u09g-control {
+  width: 100%;
+  height: 56px !important;
+}
+
+/* select balandligi */
+.css-1insrsq-control {
+  width: 100%;
+  height: 56px !important;
+}
+
+#js-licensing {
+  display: none;
+}
+
+/* selectni bosganda element tagiga qolmasligi uchun */
+#react-select-21-listbox {
+  position: inherit;
+  z-index: 999 !important;
+}
+
+.css-2613qy-menu {
+  position: inherit;
+  z-index: 999 !important;
+}
+
+.adminWindow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .3));
+  z-index: 999;
+}
+
+.alert {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 25%;
+  z-index: 99999 !important;
+  margin: auto;
+}
+
+.alertNotice {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  z-index: 999999 !important;
+  margin: auto;
+}
+
+/* scroll ni uzunligini o'zgartirish */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+.XodimBajaruvchi .css-26l3qy-menu,
+.col1QaytaIjro .css-26l3qy-menu {
+  width: 350px !important;
+  z-index: 999 !important;
+}
+
+
+
+.css-26l3qy-menu {
+  z-index: 999 !important;
+  margin-bottom: 20px;
+}
+
+.badge {
+  font-weight: bold;
+}
+
+/* input uchun */
+.adminSozlamaInput {
+  padding: 5px;
+  border: none !important;
+  background-color: transparent;
+  width: 70px;
+}
+
+.react-numeric-input {
+  border: none !important;
+}
+
+.react-numeric-input b {
+  display: none !important;
+}
+
+.adminSozlamaInput:hover {
+  border-bottom: 1px solid crimson !important;
+}
+
+.adminSozlamaInput:focus {
+  outline: none !important;
+  border: 1px solid crimson !important;
+  border-radius: 2px !important;
+}
+
+.customNoti {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 2.4rem;
+  right: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 .3rem .6rem rgba(0, 0, 0, .5);
+  padding: .2rem 1.4rem;
+  z-index: 999 !important;
+  background-color: #fff;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.customNoti.show {
+  opacity: 1;
+  animation-name: notify;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  transform: translate(0, 0);
+}
+
+.customNoti.hide {
+  animation-name: notifyHide;
+  animation-duration: .3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  opacity: 0;
+  transform: translate(100%, 0);
+}
+
+.customNoti-head {
+  display: grid;
+  place-items: center;
+}
+
+.customNoti-body {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+.customNoti-body .items a {
+  color: #333 !important;
+  font-weight: 700 !important;
+  font-size: .9rem !important;
+}
+
+.customNoti-body .items a span.success {
+  color: rgb(50, 168, 50);
+}
+
+.customNoti-body .items a span.warning {
+  color: rgb(219, 128, 24);
+}
+
+.customNoti-body .items a span.error {
+  color: #b40428;
+}
+
+.customNoti-body .items a span.num {
+  margin-right: 15px;
+}
+
+@media (max-width: 1500px) {
+  .page-content {
+    height: 90% !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .page-content {
+    height: 85% !important;
+  }
+}
+
+
+
+#vanta {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.contaidner {
+  z-index: 999 !important;
+}

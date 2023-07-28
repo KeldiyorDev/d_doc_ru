@@ -1,0 +1,26 @@
+.adminWindow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.3));
+    z-index: 9;
+}
+.alert {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    width: 25%;
+    z-index: 99999 !important;
+    margin: auto;
+}
+.alertNotice {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    z-index: 99999 !important;
+    margin: auto;
+}

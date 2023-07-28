@@ -1,0 +1,324 @@
+.NavLink {
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tableHeader th,
+td {
+    padding: 5px;
+}
+
+.inp {
+    margin: 10px 30px 0 0;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.infoBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid;
+    width: 35px;
+    height: 35px;
+    padding: 2px;
+    color: #fff;
+}
+
+.infoBtn:hover {
+    color: #fff;
+}
+
+.NavLink li .NavLinkLi {
+    background-color: #fff;
+    color: #000;
+    margin-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.NavLink li .NavLinkLi:hover {
+    color: #000;
+}
+
+.NavLink li .customTabLink {
+    margin-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.NavLink li .customTabLinkBg {
+    background: white;
+    color: #000;
+}
+
+.NavLink li .customTabLinkBg:hover {
+    color: #000;
+}
+
+.NavLink li a {
+    margin-top: 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 12px;
+}
+
+.text-color {
+    font-weight: bold;
+    color: #0056B8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.color-black {
+    font-weight: bold;
+    color: #000;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+
+}
+
+.Tab tbody {
+    border: 1px solid rgb(170, 168, 168);
+    border-radius: 20px;
+}
+
+table tbody {
+    border: 20px solid rgb(209, 209, 209);
+    width: 100%;
+    border-radius: 20px;
+}
+
+/*remove border*/
+.noBorder {
+    border: 0 !important;
+}
+
+.Tab tbody tr {
+    border-radius: 20px;
+
+}
+
+.Tab tbody tr td {
+    border: 1px solid rgb(209, 208, 208);
+
+}
+
+.TableLink {
+    color: #0056B8;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.formInput {
+    margin: 0 auto;
+}
+
+.cardd {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.MyNavbar {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.cardHome {
+    transition: box-shadow .3s ease-in;
+    /* -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset !important; */
+}
+
+.cardHome:hover {
+    box-shadow:
+        0 2.8px 2.2px rgb(0 0 0 / 3%),
+        0 6.7px 5.3px rgb(0 0 0 / 5%),
+        0 12.5px 10px rgb(0 0 0 / 6%),
+        0 2.3px 7.9px rgb(0 0 0 / 7%),
+        0 8px 33.4px rgb(0 0 0 / 9%),
+        0 0 10px rgb(0 0 0 / 12%) !important;
+}
+
+.dropdown-menu input {
+    border: 1px solid;
+}
+
+#pagination {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#pagination ul {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#pagination ul li {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1px;
+    margin-top: 5px;
+}
+
+#pagination ul li a {
+    width: 60px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0056B8;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 3px;
+
+}
+
+#pagination ul li:first-child a {
+    background-color: #eee;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+#pagination ul li:last-child a {
+    background-color: #eee;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+#NavLink-1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold;
+    color: #0056B8 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#nav::before {
+    content: '<<';
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+}
+
+#nav::after {
+    content: '>>';
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+}
+
+#nav a {
+    width: 40px;
+    height: 35px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0056B8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#navv {
+    position: absolute;
+    top: 100px;
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#navv::before {
+    content: '<<';
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+}
+
+#navv::after {
+    content: '>>';
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #eee;
+    color: #000;
+}
+
+#navv a {
+    width: 40px;
+    height: 35px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0056B8;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#navv a .active {
+    background-color: #eee;
+}
+
+.customSelect {
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    padding: 4px 2px;
+    border-radius: 20px !important;
+}
+
+.customInput:focus {
+    outline: 2px solid rgba(10, 110, 189, 0.85);
+}

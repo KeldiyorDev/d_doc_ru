@@ -1,0 +1,168 @@
+.fc-toolbar {
+  margin-bottom: 5px !important;
+  background-color: #0056B8;
+  color: #fff !important;
+  padding-left: 10px;
+}
+
+.fc-today-button {
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.fc .fc-button:disabled {
+  opacity: 1 !important;
+}
+
+.fc {
+  padding: 20px;
+}
+
+.fc-scrollgrid-sync-table .gridcell {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.fc-event-title-container {
+  cursor: pointer;
+}
+
+.fc-popover {
+  opacity: 0;
+}
+
+.fc-daygrid-day-bottom {
+  margin-top: 5px !important;
+}
+
+/* .fc-h-event {
+  border: 1px solid silver !important;
+  background-color: rgb(0, 113, 193) !important;
+} */
+
+.fc-media-screen {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.fc-event-title-container {
+  padding: 5px;
+  /* background-color: rgb(0, 113, 193) !important; */
+  /* color: #fff; */
+  font-weight: bold;
+  /* background-color: honeydew; */
+  /* border: none !important; */
+}
+
+.eventModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7));
+  z-index: 999999 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eventModalWrapper {
+  background-color: #fff;
+  animation: zoom .3s;
+  z-index: 999999 !important;
+  position: relative;
+  width: 90% !important;
+  height: 90%;
+}
+
+.eventModalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0056B8;
+  color: #fff;
+  height: 60px;
+  padding: 0 10px;
+}
+
+.eventModalHeader span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.eventModalHeader span:hover {
+  background-color: rgb(51, 95, 177);
+}
+
+.eventModalBody {
+  overflow-y: scroll;
+  padding: 5px 10px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: silver;
+}
+
+.regN {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 4px;
+}
+
+.inputBox1 {
+  padding-left: 40px !important;
+  width: 100% !important;
+}
+
+.inputBox1::placeholder {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.fc-daygrid-body,
+.fc-scrollgrid-sync-table,
+.fc-col-header {
+  width: 100% !important;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.fc-view-harness::-webkit-scrollbar {
+  height: 5px !important;
+}
+
+.fc-header-toolbar {
+  padding: 0.925rem 1.25rem;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+
+.fc-toolbar-chunk .fc-toolbar-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+}

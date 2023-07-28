@@ -1,0 +1,116 @@
+.select_with_checkbox,
+.select_with_checkbox2 {
+    width: 100%;
+    position: relative;
+}
+
+.select_with_checkbox .select_input,
+.select_with_checkbox2 .select_input {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 0 5px;
+}
+
+.select_with_checkbox .select_input:focus,
+.select_with_checkbox2 .select_input:focus {
+    border: 1px solid #2272f2;
+    outline-color: #2272f2;
+}
+
+.select_with_checkbox .select_options,
+.select_with_checkbox2 .select_options {
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    width: 100%;
+    margin-top: 3px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    animation: select_options .2s;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.select_options::-webkit-scrollbar {
+    width: 4px;
+}
+
+.select_options::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+}
+
+/* list */
+.select_with_checkbox .select_list,
+.select_with_checkbox2 .select_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.select_with_checkbox .select_list_item,
+.select_with_checkbox2 .select_list_item {
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.select_list_item:hover {
+    background-color: #e9f5fe;
+}
+
+.select_list_item:hover .select_button {
+    display: flex;
+}
+
+.select_list_item label {
+    width: 100%;
+    /* display: block; */
+    height: 100%;
+    padding: 7px 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.select_list_item label span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: 85%;
+    word-wrap: break-word;
+    font-size: 13px;
+}
+
+.select_checkboxes_input {
+    width: 15px;
+    height: 15px;
+}
+
+.select_with_checkbox .select_button,
+.select_with_checkbox2 .select_button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@keyframes select_options {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

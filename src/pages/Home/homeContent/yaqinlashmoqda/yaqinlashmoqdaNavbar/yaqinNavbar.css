@@ -1,0 +1,20 @@
+.nav-item {
+    position: relative;
+}
+.badge1 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 2px 5px;
+    /* width: 18px;
+    height: 18px; */
+    border-radius: 20%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 11px;
+    z-index: 1;
+}

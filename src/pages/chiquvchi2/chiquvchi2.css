@@ -1,0 +1,205 @@
+.radComment {
+    position: relative;
+}
+
+.radComment::placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+}
+
+.e-multiselect {
+    border: 1px solid hsl(0, 0%, 80%) !important;
+    height: 40px;
+    border-radius: 4px !important;
+}
+
+.e-multiselect input.e-dropdownbase::placeholder {
+    text-transform: none;
+    width: 100%;
+    color: hsl(0, 0%, 20%);
+}
+
+.InputBox::placeholder {
+    text-transform: none;
+}
+
+.InputBox {
+    width: 100%;
+}
+
+.cke_contents {
+    min-height: 900px !important;
+}
+
+.cke_wysiwyg_div {
+    padding: 10px !important;
+}
+
+.shadowBox1 {
+    -webkit-box-shadow: 1px 1px 10px -6px #000000;
+    box-shadow: 1px 1px 10px -6px #000000;
+}
+
+#cke_editor3 {
+    display: none;
+}
+
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after {
+    width: 0;
+}
+
+.input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input).e-input-focus::after {
+    width: 0;
+}
+
+.e-popup .e-checkbox-wrapper .e-frame.e-check,
+.e-popup .e-checkbox-wrapper:hover .e-frame.e-check {
+    background-color: #0056B8;
+    color: white;
+}
+
+.cke_contents.cke_reset {
+    padding: 30px 100px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+
+.badge1 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 2px 5px;
+    /* width: 18px;
+    height: 18px; */
+    border-radius: 20%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: #fff;
+    font-size: 11px;
+    z-index: 1;
+}
+
+.extraBadge1 {
+    top: -15px !important;
+}
+
+.liMenus {
+    display: none !important;
+}
+
+.nom::placeholder {
+    text-transform: none;
+}
+
+.cke_contents.cke_reset {
+    padding: 30px 100px;
+}
+
+.shablon .cke_wysiwyg_div {
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    height: 900px !important;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.shablon .cke_wysiwyg_div p {
+    text-align: end;
+    margin: 0;
+}
+
+.chiquvchi-nav .active {
+    background-color: #fff !important;
+    color: #000;
+    margin-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-weight: bold !important;
+    margin-left: 0;
+}
+
+.InputBox {
+    height: 56px;
+}
+
+.e-multiselect {
+    border: 1px solid hsl(0, 0%, 80%) !important;
+    height: 40px;
+    border-radius: 4px !important;
+}
+
+.e-multiselect input.e-dropdownbase::placeholder {
+    text-transform: none;
+    width: 100%;
+    color: hsl(0, 0%, 20%);
+}
+
+.unit1 .cke_contents {
+    min-height: 900px !important;
+}
+
+.isBook .cke_contents {
+    min-height: 900px !important;
+}
+
+.isAlbom.cke_contents {
+    min-height: 700px !important;
+}
+
+.unit1 .cke_wysiwyg_div {
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    height: 900px;
+    border-radius: 7px;
+    padding: 50px 80px !important;
+}
+
+.isBook .cke_wysiwyg_div {
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    height: 900px;
+    border-radius: 7px;
+    padding: 50px 80px !important;
+}
+
+.isAlbom .cke_wysiwyg_div {
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    height: 600px;
+    border-radius: 7px;
+    padding: 50px 80px !important;
+}
+
+.kurishCkEditor .cke_browser_webkit {
+    width: 680px !important;
+}
+
+.dropdown-container .dropdown-content {
+    z-index: 5;
+}
+
+.dropdown-heading {
+    height: 45px !important;
+}
+
+.input_checkbox_wrapper_flex, .main_input_data {
+    height: 45px;
+}
+
+.kurishCkEditor .cke_top.cke_reset_all {
+    display: none;
+}
+
+.chiquvchiSelect .select__value-container {
+    height: 42px;
+    width: 100%;
+    overflow: auto;
+}

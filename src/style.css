@@ -1,0 +1,344 @@
+.nav--item__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Response to mobile for tables started in here*/
+
+.customNoti {
+  background: white;
+}
+
+@media (min-width: 0px) and (max-width: 446.9px) {
+  .p-xs-0 {
+    padding: 0 !important;
+  }
+
+  .mr-xs-0 {
+    margin-right: 0 !important;
+  }
+
+  .sx-none {
+    display: none !important;
+  }
+
+  .nav--item__block {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .mohov {
+    display: none;
+  }
+
+
+  .nav-group-sm {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .nav-sm-logo {
+    position: absolute !important;
+    margin: 0 auto !important;
+    right: 0 !important;
+    left: 0 !important;
+  }
+
+  .nav-group-sm-btn {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: 0 .7rem .8rem rgba(0, 0, 0, 0.16);
+  }
+
+  .to-right {
+    left: 50% !important;
+  }
+
+  .to-right button {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .mobile-table-none {
+    display: none;
+  }
+
+  .content-mobile {
+    padding: 0 !important;
+    margin-top: 2rem;
+  }
+
+  .card-body-mobile {
+    padding: 7px !important;
+  }
+
+  /* TABLE MOBILE CONTENT */
+
+  .table-sm-full {
+    width: 100% !important;
+  }
+
+  .direction-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .direction-mobile th {
+    width: 100% !important;
+    margin-bottom: -10px !important;
+  }
+
+  .drm-th-1 th {
+    margin-bottom: 10px !important;
+  }
+
+  .inp-sm-none {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .sm-mb-10 {
+    margin-bottom: 10px !important;
+  }
+
+  /* TABLE MOBILE CONTENT NIHOYASI*/
+
+  .nav-item {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .badge1 {
+    left: 3px;
+    top: 20px;
+    right: auto;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .nav-item a {
+    border-radius: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .flex-sm-none {
+    flex: none !important;
+  }
+}
+
+@media (min-width: 447px) and (max-width: 768.9px) {
+  .nav--item__block {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+
+  .mohov {
+    display: none;
+  }
+
+  .mobile-table-none {
+    display: none !important;
+  }
+
+  .nav-group-sm {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  .nav-sm-logo {
+    position: absolute !important;
+    margin: 0 auto !important;
+    right: 0 !important;
+    left: 0 !important;
+  }
+
+  .nav-group-sm-btn {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: 0 .7rem .4rem rgba(0, 0, 0, 0.46);
+  }
+
+  .to-right {
+    left: 50% !important;
+  }
+
+  .to-right button {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .content-mobile {
+    padding: 0 !important;
+    margin-top: 2rem;
+  }
+
+  .card-body-mobile {
+    padding: 15px !important;
+  }
+
+  /* TABLE MOBILE CONTENT */
+
+  .table-sm-full {
+    width: 100% !important;
+  }
+
+  .direction-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .direction-mobile th {
+    width: 100% !important;
+    margin-bottom: -5px !important;
+  }
+
+  .drm-th-1 {
+    margin-bottom: 10px !important;
+  }
+
+  .inp-sm-none {
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .sm-mb-10 {
+    margin-bottom: 10px !important;
+  }
+
+  /* TABLE MOBILE CONTENT NIHOYASI*/
+}
+
+@media (min-width: 769px) and (max-width: 989.9px) {
+  .sm-mb-10 {
+    margin-bottom: 10px !important;
+  }
+
+  .nav-group-sm-btn {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: 0 .7rem .4rem rgba(0, 0, 0, 0.46);
+  }
+
+  .to-right {
+    left: 50% !important;
+  }
+
+  .to-right button {
+    border: none !important;
+    border-radius: 0 !important;
+  }
+
+  .content-mobile {
+    padding: 0 !important;
+    margin-top: 2rem;
+  }
+
+}
+
+hr {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+@media (min-width: 990px) and (max-width: 1450px) {}
+
+/*Response to mobile for tables ended in here*/
+.bg-text .links li {
+  width: auto !important;
+}
+
+.bg-text {
+  height: auto !important;
+}
+
+.adminSozlamaInput {
+  width: 45px;
+  padding: 0 !important;
+  background-color: transparent;
+  text-align: center;
+  font-size: 18px !important;
+  box-shadow: 0 0 5px 1px gray;
+}
+
+
+/*ADMIN NAVBAR DROPDOWN BOSHLANDI :(*/
+.sidebar-user-material-footer>a:hover,
+.sidebar-user-material-footer>a[aria-expanded=true],
+.sidebar-user-material-footer>a[aria-expanded=false] {
+  background: transparent !important;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢͢
+  |DESKTOP TABLE UCHUN|
+  `````````````````````*/
+@media only screen and (max-width: 1466px) {
+  .desktop-table {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .desktop-table {
+    font-size: 10px !important;
+  }
+}
+
+.dt-input {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.dt-input:focus {
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.dt-input::placeholder {
+  text-transform: uppercase;
+  margin-left: -10px;
+}
+
+/*  RIGHT BORDER    */
+.right-border {
+  border-right: 1px solid grey;
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.e-multi-select-wrapper, .e-multiselect {
+  height: 45px;
+}
+
+.entry-content {
+  font-family: "Times New Roman";
+  font-size: 14px;
+}

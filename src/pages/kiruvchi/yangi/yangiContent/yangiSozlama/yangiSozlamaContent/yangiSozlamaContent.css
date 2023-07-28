@@ -1,0 +1,62 @@
+.shadowBox {
+    box-shadow: 0px 2px 3px 3px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    transition: all ease-in .1s !important;
+}
+.shadowBox:hover {
+    background-color: lightgray;
+}
+.trashTag {
+    transition: color ease-in .1s !important;
+    cursor: pointer;
+}
+.trashTag:hover {
+    color: crimson;
+}
+.pdfIcon {
+    color: rgb(199, 81, 104);
+}
+.wordIcon {
+    color: rgb(62, 62, 235);
+}
+.excelIcon {
+    color: rgb(47, 153, 47);
+}
+.pptIcon {
+    color: rgb(255, 166, 0);
+}
+
+
+.checkbox {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.checkbox strong {
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+}
+.iconCheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: lightgray;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all ease-in .2s;
+    font-size: 20px;
+}
+.checkbox:hover .iconCheck {
+    display: flex;
+}

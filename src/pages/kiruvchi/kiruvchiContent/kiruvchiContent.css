@@ -1,0 +1,133 @@
+.checkbox {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkbox strong {
+    color: rgb(109, 108, 108);
+    font-size: 20px;
+}
+
+.iconCheck {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: lightgray;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all ease-in .2s;
+    font-size: 20px;
+}
+
+.checkbox:hover .iconCheck {
+    display: flex;
+}
+
+.btnHujjat {
+    background-color: rgba(192, 192, 192, 0.254);
+}
+
+.btnHujjat:hover {
+    background-color: rgba(192, 192, 192, 0.433);
+}
+
+.kiruvchiMain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(211, 211, 211, 0.448);
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.kiruvchiMain i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: all ease-in .15s;
+}
+
+.kiruvchiMain i:hover {
+    color: crimson;
+}
+
+
+.input-border {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.input-border:active {
+    border: 1px solid #0056B8;
+}
+
+.input-border .first {
+    margin-left: 30px;
+    width: 100% !important;
+}
+
+.second {
+    margin-left: 5px;
+    width: 59% !important;
+    padding-left: 5px;
+}
+
+
+.input-border input {
+    border: none !important;
+    width: 100% !important;
+    outline: none;
+
+}
+
+
+/* .input-border input::after,
+.input-border input::before {
+    display: none;
+} */
+
+#royxatdanOtishSana,
+#chiquvchiSana {
+    width: 100% !important;
+    border: none;
+    height: 54px !important;
+    outline: none;
+    padding: 16px;
+}
+
+.react-datePicker {
+    width: 300px !important;
+}
+
+.shadowKiruvchi {
+    -webkit-box-shadow: 1px 2px 4px 0px #00000084;
+    box-shadow: 1px 2px 4px 0px #00000084;
+}
+
+.cardKiruvchi {
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    background-color: rgb(249, 243, 213);
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    display: none;
+}
+.css-b62m3t-container:hover .cardKiruvchi {
+    display: block !important;
+    background-color: blue !important;
+}

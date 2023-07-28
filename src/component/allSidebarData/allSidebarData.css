@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+.adminWindow1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.91);
+  z-index: 999999 !important;
+  margin-left: 0 !important;
+  overflow-y: scroll !important;
+}
+
+.customDialog {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+/* .adminWindow1Wrapper {
+    width: 40%;
+    margin: auto;
+} */
+.alert {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 25%;
+  z-index: 9999 !important;
+  margin: auto;
+}
+
+.alertNotice {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  right: 0;
+  width: 25%;
+  z-index: 9999 !important;
+  margin: auto !important;
+}
+
+.adminWindow1Wrapper1 {
+  position: relative;
+}
+
+.imgSettings {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* .liHover:hover {
+  background-color: #D3F0E3 !important;
+} */
+
+.nav-item-ul {
+  list-style: none;
+}
+
+.nav-item-ul li a {
+  padding-left: 40px !important;
+}
+
+@media (max-width: 1200px) {
+  .adminWindow1Wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .adminWindow1Wrapper {
+    width: 95%;
+  }
+
+  .imgSettings {
+    position: relative;
+  }
+
+  .customDialog {
+    margin-top: 10px;
+  }
+}
+
+.faq {
+  position: fixed;
+  padding: .3rem;
+  bottom: 1rem;
+  left: .9rem;
+  cursor: pointer;
+  box-shadow: none;
+  z-index: 99;
+  aspect-ratio: 3/3;
+}
+
+.plusBtn {
+  position: fixed;
+  bottom: .25rem;
+  left: .25rem;
+}
+
+.plusBtn>ul>li>button {
+  width: 30px;
+  height: 30px;
+}
+
+.fab-menu-btn {
+  padding: 0;
+}
+
+.faq::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: #0056B8;
+  border-radius: 50%;
+  z-index: -1;
+  animation: live 1s linear infinite;
+}
+
+.faq i {
+  color: white;
+  font-size: 1.4rem;
+}
+
+@keyframes live {
+  from {
+    transform: scale(0.8);
+    opacity: 0.5;
+    background: rgba(154, 158, 162, 0.68);
+  }
+
+  to {
+    transform: scale(2);
+    opacity: 0.1;
+    background: #0056B8;
+  }
+}
+
+
+/* not permission */
+.not_permission {
+  width: 100%;
+  height: 100%;
+  color: rgba(192, 192, 192, 0.884);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.not_permission h2 {
+  font-size: 36px !important;
+}
